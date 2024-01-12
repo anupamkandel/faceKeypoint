@@ -1,0 +1,31 @@
+Architecture 1:
+Uses three convolutional layers with decreasing kernel sizes.
+Applies ReLU activation and batch normalization after each convolutional layer.
+Includes a dense layer with 100 units and a dropout layer.
+
+Architecture 2:
+Similar to Architecture 1 but includes padding in convolutional layers.
+Padding helps maintain spatial dimensions in the convolutional layers.
+
+Architecture 3:
+Similar to Architecture 2 but uses a larger number of units (500) in the dense layer.
+
+Architecture 4:
+Similar to Architecture 2 but removes one convolutional layer from the end.
+Reduces the depth of the network.
+
+Architecture 5:
+Utilizes depthwise separable convolution in the first convolutional layer.
+Depthwise separable convolution reduces the number of parameters and computation.
+
+Architecture 6:
+Similar to Architecture 5 but removes one convolutional layer from the end.
+Also uses depthwise separable convolution.
+
+Architecture 7:
+Introduces an identity block (residual connection) after the initial convolutional layers.
+Uses depthwise separable convolution.
+Includes a dense layer with 500 units.
+
+
+
