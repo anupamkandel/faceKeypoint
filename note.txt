@@ -1,0 +1,11 @@
+Downloading of datasets:
+  1. Create folder"datasets"
+  2. Download datasets from https://www.kaggle.com/c/facial-keypoints-detection/data
+  3. extract test.zip and training.zip
+  4. put test.csv and train.csv files inside datasets folder
+
+run main.ipynb
+
+model named "model" will be created
+
+put images inside "user images" folder and run use_model.ipynb to find images keypoints
